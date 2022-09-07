@@ -1,3 +1,8 @@
+import { counter, buttons } from "./dom-loader.js";
+
+import "../src/main.css";
+import "../src/style.css";
+
 buttons.forEach((btn) => {
   btn.addEventListener("click", calculate);
 });
